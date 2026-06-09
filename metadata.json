@@ -1,0 +1,6 @@
+{
+  "name": "Exal Visuals",
+  "description": "Exal Visuals - Cinematic AI Strategy and creative direction for high-impact brands.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
