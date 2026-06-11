@@ -329,7 +329,9 @@ export default function App() {
 
         <div className="flex items-center gap-3">
           <a
-            href="mailto:riseaka29@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=riseaka29@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden sm:inline-flex bg-gradient-to-r from-[#4b8eff] to-[#005bc1] text-white shadow-[0_0_25px_rgba(75,142,255,0.45),_0_0_10px_rgba(14,165,233,0.3)] border border-white/20 hover:border-blue-300/40 hover:shadow-[0_0_40px_rgba(75,142,255,0.8),_0_0_20px_rgba(14,165,233,0.65)] px-6 py-2.5 rounded-full font-semibold tracking-wide text-xs uppercase hover:scale-[1.04] transition-all duration-300 cursor-pointer items-center justify-center"
           >
             Let's Connect
@@ -375,7 +377,9 @@ export default function App() {
                 </button>
               ))}
               <a
-                href="mailto:riseaka29@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=riseaka29@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => {
                   setIsMobileMenuOpen(false);
                 }}
@@ -436,7 +440,9 @@ export default function App() {
                  className="flex flex-wrap gap-4 pt-2"
                >
                  <a
-                   href="mailto:riseaka29@gmail.com"
+                   href="https://mail.google.com/mail/?view=cm&fs=1&to=riseaka29@gmail.com"
+                   target="_blank"
+                   rel="noopener noreferrer"
                    className="inline-flex bg-gradient-to-r from-[#4b8eff] to-[#005bc1] shadow-[0_0_30px_rgba(75,142,255,0.45),_0_0_12px_rgba(14,165,233,0.3)] border border-white/20 hover:border-blue-300/40 hover:shadow-[0_0_50px_rgba(75,142,255,0.8),_0_0_25px_rgba(14,165,233,0.6)] text-white px-8 py-4 rounded-full font-bold uppercase tracking-wider text-sm items-center gap-3.5 group hover:scale-[1.03] transition-all duration-300 cursor-pointer"
                  >
                    Let's Work Together
@@ -924,7 +930,9 @@ export default function App() {
             
             <div className="flex flex-wrap gap-4 justify-center mt-4">
               <a
-                href="mailto:riseaka29@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=riseaka29@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex bg-gradient-to-r from-[#4b8eff] to-[#005bc1] hover:shadow-[0_0_30px_rgba(75,142,255,0.4)] text-white px-9 py-4 rounded-full font-bold uppercase tracking-wider text-sm items-center gap-3 cursor-pointer"
               >
                 <Mail className="w-4.5 h-4.5" />
@@ -1072,7 +1080,9 @@ export default function App() {
 
                   <div className="mt-8 pt-4 flex gap-3">
                     <a
-                      href={`mailto:riseaka29@gmail.com?subject=Inquiry regarding campaign: ${selectedProject.title}`}
+                      href={`https://mail.google.com/mail/?view=cm&fs=1&to=riseaka29@gmail.com&su=${encodeURIComponent(`Inquiry regarding campaign: ${selectedProject.title}`)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       onClick={() => {
                         setSelectedProject(null);
                       }}
